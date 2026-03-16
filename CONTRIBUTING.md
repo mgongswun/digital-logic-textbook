@@ -18,5 +18,5 @@
 - [cite_start]**PDF 资源**：若需上传大体积 PDF 资源，请联系项目维护人员 [cite: 2]。
 
 ## 三、 编写团队
-- **作者 (Authors)**：龚老师 (@mgongswun)、[另一位老师姓名]
-- **贡献者 (Contributors)**：[你的名字]、[另一位同学名字]
+- **作者 (Authors)**：公岷 (@mgongswun)、王术群
+- **贡献者 (Contributors)**：郭骏飞、杨静
