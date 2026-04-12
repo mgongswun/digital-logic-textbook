@@ -9,20 +9,20 @@
 
 | 模块 | 内容描述 | 快速直达 |
 | :--- | :--- | :---: |
-| **核心教材** | 包含 Chapter 01-07 完整 PDF 内容 | [点击进入](./textbook/) |
-| **习题库** | 基础巩固、进阶挑战及详细解析 | [点击进入](./exercises/) |
-| **知识图谱** | 知识点关联 JSON 及可视化页面 | [点击进入](./knowledge-graph/) |
-| **能力模型** | 核心技能维度映射与评估指标 | [点击进入](./competency-model/) |
-| **实践案例** | 基于 FPGA 的综合项目（如语音识别） | [点击进入](./projects/) |
-| **补充材料** | 芯片手册、开发工具安装指南及文献 | [点击进入](./supplements/) |
+| **📖 核心教材** | 包含数字逻辑基础到综合案例的完整 PDF | [点击进入](./textbook/) |
+| **🧪 实践案例** | 基于 FPGA 的综合项目（如语音识别） | [点击进入](./projects/) |
+| **🕸️ 知识图谱** | 知识点关联 JSON 及可视化图谱页面 | [点击进入](./knowledge-graph/) |
+| **🎯 能力模型** | 核心技能维度映射与工程师评估指标 | [点击进入](./competency-model/) |
+| **📝 习题解析** | 基础巩固、挑战题及详细解题思路 | [点击进入](./exercises/) |
+| **🛠️ 补充材料** | 芯片手册、开发工具安装指南及参考文献 | [点击进入](./supplements/) |
 
 ---
 
 ## 🧩 系统功能与工具
 
 * **📊 教学数据**：查看 [sample-learning-data](./data/sample-learning-data/) 获取脱敏学习行为样本。
-* **🛠️ 诊断工具**：通过 [diagnosis.md](./tools/diagnosis.md) 进行学习进度自我检测。
 * **📍 路径规划**：访问 [path-planning.md](./tools/path-planning.md) 查看针对 **AI+通信** 方向的推荐路径。
+* **🎯 进度诊断**：使用 [diagnosis.md](./tools/diagnosis.md) 进行学习进度自我检测。
 * **🎥 视频资源**：在 [video_links.md](./videos/video_links.md) 中获取微课视频链接。
 
 ---
@@ -31,13 +31,10 @@
 
 我们欢迎任何形式的贡献！请在开始前阅读我们的 [贡献指南 (CONTRIBUTING.md)](./CONTRIBUTING.md)。
 
-* **作者**：[mgongswun](https://github.com/mgongswun)
+* **维护者**：[@mgongswun](https://github.com/mgongswun)
 * **更新日志**：查看 [CHANGELOG.md](./CHANGELOG.md) 获取最新版本动态。
 * **许可协议**：本项目采用 [MIT License](./LICENSE) 授权。
 
 ---
 
 ## 📅 下一版计划 (Upcoming)
-* 增加基于 AI 的通信调制识别 FPGA 案例。
-* 优化知识图谱的 D3.js 动态交互效果。
-* 完善各章节配套的 `quizzes/` 自动化测试。
