@@ -1,97 +1,97 @@
-# 贡献指南 (Contributing Guidelines)
+# Contributing Guidelines
 
-感谢您参与《数字逻辑与数字电路》开源教材的共建！本教材采用“开源共建·快速迭代”模式，欢迎教师、企业工程师、学生成为贡献者。
+Thank you for participating in the co-creation of the *Digital Logic and Digital Circuits* open-source textbook! This project follows an "open collaboration, rapid iteration" model and welcomes contributions from teachers, engineers, and students.
 
 ---
 
-## 一、贡献类型
+## 1. Types of Contributions
 
-您可以通过以下方式贡献：
+You can contribute in the following ways:
 
-| 类型 | 说明 | 示例 |
+| Type | Description | Example |
 | :--- | :--- | :--- |
-| **勘误** | 发现错别字、公式错误、图注错误、代码错误 | 提交 PR 修正错误 |
-| **新增案例** | 提交 FPGA 项目、企业真实案例（需脱敏） | 在 `cases/` 目录下添加案例文件夹 |
-| **补充习题** | 提供有挑战性的题目及详细解析 | 在 `exercises/` 目录下添加 Markdown 文件 |
-| **代码优化** | 改进 Verilog/VHDL 代码示例，增加注释 | 修改 `code/` 目录下的源文件 |
-| **教材修订** | 优化章节表述、补充前沿技术内容 | 修改 `textbook/` 目录下的 Markdown 文件 |
-| **翻译** | 将教材部分章节翻译为其他语言 | 新建 `translations/` 目录下的对应文件 |
+| **Errata** | Fix typos, formula errors, figure errors, code errors | Submit a PR correcting the error |
+| **New Cases** | Submit FPGA projects or real-world enterprise cases (anonymized) | Add a case folder under `cases/` |
+| **Additional Exercises** | Provide challenging problems with detailed solutions | Add a Markdown file under `exercises/` |
+| **Code Improvements** | Improve Verilog/VHDL code examples, add comments | Modify source files under `code/` |
+| **Textbook Revisions** | Optimize chapter wording, add cutting-edge content | Modify Markdown files under `textbook/` |
+| **Translations** | Translate parts of the textbook into other languages | Create corresponding files under `translations/` |
 
 ---
 
-## 二、贡献流程
+## 2. Contribution Workflow
 
-1. **Fork 本仓库** → 点击 GitHub 页面右上角的 “Fork” 按钮。
-2. **创建分支** → 在您 Fork 的仓库中创建新分支，命名建议：
-   - `fix/xxx`（勘误）
-   - `case/xxx`（新增案例）
-   - `exercise/xxx`（补充习题）
-   - `code/xxx`（代码优化）
-   - `trans/xxx`（翻译）
-3. **进行修改** → 按照编写准则（见第三节）完成修改。
-4. **提交 Pull Request (PR)** → 回到本仓库，点击 “New Pull Request”，选择您的分支并提交。
-5. **等待审核** → 编委会将在 1-2 周内完成审核，可能会要求修改。
-6. **合并** → 审核通过后，您的贡献将被合并到主分支。
+1. **Fork this repository** → Click the "Fork" button in the upper right corner of the GitHub page.
+2. **Create a branch** → In your forked repository, create a new branch with a descriptive name:
+   - `fix/xxx` (errata)
+   - `case/xxx` (new case)
+   - `exercise/xxx` (new exercise)
+   - `code/xxx` (code improvement)
+   - `trans/xxx` (translation)
+3. **Make your changes** → Follow the writing guidelines (see Section 3) to complete your modifications.
+4. **Submit a Pull Request (PR)** → Go back to this repository, click "New Pull Request", select your branch, and submit.
+5. **Wait for review** → The editorial board will review within 1–2 weeks and may request changes.
+6. **Merge** → Once approved, your contribution will be merged into the main branch.
 
-> 💡 **提示**：首次贡献者请先阅读 [README.md](./README.md) 了解仓库结构。
-
----
-
-## 三、编写准则
-
-- **语言**：使用规范的学术中文或英文。
-- **格式**：正文内容使用 Markdown 编写，插图存放于 `images/` 目录，使用相对路径引用。
-- **代码规范**：Verilog/VHDL 代码请保持缩进一致，添加必要注释。
-- **LaTeX 公式**：行内公式使用 `$...$`，独立公式使用 `$$...$$`。
-- **案例提交**：请在案例文件夹中包含 `README.md`（案例说明）、`code/`（源码）、`docs/`（设计文档）。
-- **企业贡献**：如包含核心知识产权（IP），请在文件头部添加 `@core-ip` 标记，并签署《企业贡献者协议》（详见第五节）。
+> 💡 **Tip**: First-time contributors should read [README.md](./README.md) to understand the repository structure.
 
 ---
 
-## 四、审核机制
+## 3. Writing Guidelines
 
-本教材实行 **分级审核制度**：
+- **Language**: Use standard academic Chinese or English.
+- **Format**: Write content in Markdown. Place images in the `images/` directory and reference them with relative paths.
+- **Code style**: Keep consistent indentation for Verilog/VHDL code and add necessary comments.
+- **LaTeX formulas**: Use `$...$` for inline formulas and `$$...$$` for display formulas.
+- **Case submissions**: Each case folder should include a `README.md` (case description), `code/` (source code), and `docs/` (design documentation).
+- **Enterprise contributions**: If you include core intellectual property (IP), add the `@core-ip` marker at the beginning of the file and sign the Enterprise Contributor Agreement (see Section 5).
 
-| 贡献类型 | 初审 | 终审 | 周期 |
+---
+
+## 4. Review Process
+
+This textbook adopts a **tiered review system**:
+
+| Contribution Type | Initial Review | Final Review | Turnaround |
 | :--- | :--- | :--- | :--- |
-| 勘误/小修正 | 学科专家 1 人 | 主编 | 3-5 个工作日 |
-| 新增习题/微案例 | 学科专家 + 教学专家 | 主编 | 1 周 |
-| 新增企业案例 | 企业专家 + 学科专家 | 主编 | 2 周 |
-| 新增章节/大修订 | 全体学科专家 | 主编 + 出版社 | 1 个月 |
+| Errata/minor fixes | 1 domain expert | Editor-in-chief | 3–5 business days |
+| New exercises/mini cases | Domain expert + teaching expert | Editor-in-chief | 1 week |
+| New enterprise cases | Industry expert + domain expert | Editor-in-chief | 2 weeks |
+| New chapters/major revisions | All domain experts | Editor-in-chief + publisher | 1 month |
 
-审核通过后，您的贡献将被合并，并记录在版本更新日志中。
-
----
-
-## 五、企业贡献者特别说明
-
-如果您代表企业贡献案例，并希望保护核心知识产权：
-
-1. 在贡献文件的**头部**添加 `@core-ip` 标记。
-2. 联系课程团队签署 **《企业贡献者协议》**（模板见仓库 `docs/agreement.md`）。
-3. 签署后，该部分内容**不触发 CC BY-NC-SA 的“相同方式共享”条款**，第三方不得提取、复制或逆向工程用于商业目的。
-
-📧 联系邮箱：`mgong@swun.edu.cn`
+Once approved, your contribution will be merged and recorded in the changelog.
 
 ---
 
-## 六、贡献者激励
+## 5. Special Note for Enterprise Contributors
 
-| 贡献层级 | 激励方式 |
+If you are contributing on behalf of a company and wish to protect core intellectual property:
+
+1. Add the `@core-ip` marker at the **beginning** of the contributed file(s).
+2. Contact the course team to sign the **Enterprise Contributor Agreement** (template available in `docs/agreement.md`).
+3. After signing, that portion of content is **NOT subject to the ShareAlike clause of CC BY-NC-SA**. Third parties may not extract, copy, or reverse-engineer it for commercial purposes.
+
+📧 Contact: `mgong@swun.edu.cn`
+
+---
+
+## 6. Contributor Incentives
+
+| Contribution Level | Incentive |
 | :--- | :--- |
-| 单次贡献 | 在 GitHub 贡献者列表中永久署名 |
-| 累计 3 次及以上 | 列入教材附录“贡献者名单” |
-| 重大贡献（如新章节、系统性案例） | 编委会署名，或获得署名章节 |
-| 年度优秀贡献者 | 在国产 FPGA 教育大会颁发证书，并邀请分享 |
+| Single contribution | Permanent name listing in GitHub contributors list |
+| Cumulative 3+ contributions | Name listed in the textbook appendix “List of Contributors” |
+| Major contribution (e.g., new chapter, systematic case) | Editorial board authorship or named chapter section |
+| Annual outstanding contributor | Certificate awarded at the Domestic FPGA Education Conference, plus invitation to present |
 
 ---
 
-## 七、编写团队
+## 7. Editorial Team
 
-- **主编**：公岷 (@mgongswun)
-- **编委会**：国家级虚拟教研室核心成员 + 企业专家 + 出版社编辑
-- **贡献者**：（持续更新）
+- **Editor-in-Chief**: Gong Min (@mgongswun)
+- **Editorial Board**: Core members of the National Virtual Teaching & Research Center + industry experts + publisher editors
+- **Contributors**: (continuously updated)
 
 ---
 
-**再次感谢您的贡献！让教材像软件一样生长，让知识在共建中流动。**
+**Thank you again for your contribution! Let the textbook grow like software, and let knowledge flow through co-creation.**
