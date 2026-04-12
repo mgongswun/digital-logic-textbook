@@ -1,74 +1,75 @@
-# 📘 数字逻辑与数字电路：开源交互教材
+# 📘 Digital Logic and Digital Circuits: An Open-Source Interactive Textbook
+
 > **Digital Logic and Digital Circuits: An Open-Source Interactive Textbook**
 
-本项目致力于打造一个结构化、数字化的数字逻辑学习平台。不仅包含核心教材，还整合了知识图谱、能力模型、FPGA 实践案例及自动化诊断工具。
+This project aims to build a structured, digital learning platform for digital logic. It includes not only the core textbook but also knowledge graphs, competency models, FPGA practice cases, and automated diagnostic tools.
 
 ---
 
-## 📂 快速导航 (Quick Navigation)
+## 📂 Quick Navigation
 
-| 模块 | 内容描述 | 快速直达 |
+| Section | Description | Link |
 | :--- | :--- | :---: |
-| **📖 核心教材** | 包含数字逻辑基础到综合案例的完整教材（Markdown/PDF） | [点击进入](./textbook/) |
-| **🧪 实践案例** | 基于 FPGA 的综合项目（含企业贡献案例） | [点击进入](./cases/) |
-| **🕸️ 知识图谱** | 知识点关联 JSON 及可视化图谱页面 | [点击进入](./knowledge-graph/) |
-| **🎯 能力模型** | 核心技能维度映射与工程师评估指标 | [点击进入](./competency-model/) |
-| **📝 习题解析** | 基础巩固、挑战题及详细解题思路 | [点击进入](./exercises/) |
-| **🛠️ 补充材料** | 芯片手册、开发工具安装指南及参考文献 | [点击进入](./supplements/) |
+| **📖 Core Textbook** | Complete textbook from digital logic fundamentals to comprehensive cases (Markdown/PDF) | [Go](./textbook/) |
+| **🧪 Practice Cases** | FPGA-based comprehensive projects (including enterprise-contributed cases) | [Go](./cases/) |
+| **🕸️ Knowledge Graph** | JSON of knowledge point relationships and visualization page | [Go](./knowledge-graph/) |
+| **🎯 Competency Model** | Core skill dimension mapping and engineer assessment metrics | [Go](./competency-model/) |
+| **📝 Exercises** | Basic drills, challenge problems, and detailed solutions | [Go](./exercises/) |
+| **🛠️ Supplementary Materials** | Datasheets, development tool installation guides, and references | [Go](./supplements/) |
 
 ---
 
-## 🧩 系统功能与工具
+## 🧩 System Features & Tools
 
-* **📊 教学数据**：查看 [sample-learning-data](./data/sample-learning-data/) 获取脱敏学习行为样本。
-* **📍 路径规划**：访问 [path-planning.md](./tools/path-planning.md) 查看针对 **AI+通信** 方向的推荐路径。
-* **🎯 进度诊断**：使用 [diagnosis.md](./tools/diagnosis.md) 进行学习进度自我检测。
-* **🎥 视频资源**：在 [video_links.md](./videos/video_links.md) 中获取微课视频链接。
+* **📊 Learning Data**: See [sample-learning-data](./data/sample-learning-data/) for anonymized learning behavior samples.
+* **📍 Path Planning**: Visit [path-planning.md](./tools/path-planning.md) for recommended paths (e.g., AI+Communications).
+* **🎯 Progress Diagnosis**: Use [diagnosis.md](./tools/diagnosis.md) for self-assessment of learning progress.
+* **🎥 Video Resources**: Find micro-lecture video links in [video_links.md](./videos/video_links.md).
 
 ---
 
-## 📜 许可证与贡献条款
+## 📜 License & Contribution Terms
 
-本项目采用**双重许可证**，不同内容适用不同条款：
+This repository uses a **dual license**. Different content types are subject to different terms:
 
-| 内容类型 | 适用许可证 | 主要限制 |
+| Content Type | License | Main Restrictions |
 | :--- | :--- | :--- |
-| **教材内容**（文本、图表、习题、课件、案例等非代码） | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) | 非商业性使用 + 相同方式共享 |
-| **代码示例**（Verilog/VHDL/FPGA项目源码） | [MIT 许可证](https://opensource.org/licenses/MIT) | 仅需保留版权声明，可商用 |
+| **Textbook Content** (text, figures, exercises, slides, cases – non‑code) | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) | NonCommercial + ShareAlike |
+| **Code Examples** (Verilog/VHDL/FPGA source code) | [MIT License](https://opensource.org/licenses/MIT) | Only retain copyright notice; commercial use allowed |
 
-### 针对 CC BY-NC-SA 4.0 的补充说明（非商业性界定）
+### Supplementary Clarification for CC BY-NC-SA 4.0 (NonCommercial)
 
-为避免对“非商业性”的理解产生歧义，特对以下常见场景进行界定：
+To avoid ambiguity, the following scenarios are defined:
 
-| 场景 | 是否允许 | 说明 |
+| Scenario | Allowed? | Explanation |
 | :--- | :--- | :--- |
-| 教师在课堂上使用本教材授课 | ✅ 允许 | 非商业教育目的 |
-| 学生个人学习、完成作业 | ✅ 允许 | 非商业目的 |
-| 非营利教育机构内部复制、分发 | ✅ 允许 | 不涉及商业盈利 |
-| 将本教材作为指定教材并收取学生费用（除印刷成本外） | ❌ 禁止 | 超出成本收费视为商业行为 |
-| 商业培训机构用于内部培训 | ❌ 禁止 | 如需使用请通过“双许可”方式联系 |
-| 出版社出版本教材的正式版（含ISBN） | ❌ 禁止，需单独授权 | 已与出版社建立合作，欢迎其他出版社洽谈 |
+| Classroom teaching by instructors | ✅ Yes | Non-commercial educational purpose |
+| Personal study and assignments by students | ✅ Yes | Non-commercial purpose |
+| Internal copying/distribution by non-profit institutions | ✅ Yes | No commercial profit |
+| Charging students fees beyond printing costs when using as required text | ❌ No | Exceeding cost is commercial |
+| Use by commercial training institutions for internal training | ❌ No | Contact us for dual licensing |
+| Formal publication (with ISBN) by a publisher | ❌ No (separate authorization required) | Cooperation already established; other publishers welcome |
 
-### 企业贡献者保护（核心IP豁免）
+### Enterprise Contributor Protection (Core IP Exemption)
 
-企业贡献的案例如果包含核心知识产权（IP），可在文件头部添加 `@core-ip` 标记，并签署 **《企业贡献者协议》**。该标记内容**不触发 CC BY-NC-SA 的“相同方式共享”条款**，第三方不得提取、复制或逆向工程该部分用于商业目的。
+If an enterprise contributes a case containing core intellectual property (IP), add the `@core-ip` marker at the beginning of the file and sign the **Enterprise Contributor Agreement**. Such marked content is NOT subject to the ShareAlike clause of CC BY-NC-SA. Third parties may not extract, copy, or reverse-engineer that portion for commercial purposes.
 
-### 双许可模式（商业合作）
+### Dual Licensing Model (Commercial Cooperation)
 
-对于需要**商业使用**本教材内容（CC BY-NC-SA 4.0 部分）的个人或机构（如正式出版、商业培训、付费APP等），请联系课程团队获取商业许可。
+Individuals or organizations wishing to use the textbook content (CC BY-NC-SA 4.0 part) for commercial purposes (e.g., formal publication, commercial training, paid apps) may obtain a commercial license by contacting the course team.
 
-📧 **联系邮箱**：`mgong@swun.edu.cn`
-
----
-
-## 🤝 参与贡献
-
-我们欢迎任何形式的贡献！请在开始前阅读我们的 [贡献指南 (CONTRIBUTING.md)](./CONTRIBUTING.md)。
-
-* **维护者**：[@mgongswun](https://github.com/mgongswun)
-* **更新日志**：查看 [CHANGELOG.md](./CHANGELOG.md) 获取最新版本动态。
-* **完整许可证**：详见 [LICENSE](./LICENSE) 文件。
+📧 **Contact**: `mgong@swun.edu.cn`
 
 ---
 
-**让教材像软件一样生长，让知识在共建中流动。**
+## 🤝 How to Contribute
+
+We welcome contributions of any kind! Please read our [Contributing Guidelines](./CONTRIBUTING.md) before you start.
+
+* **Maintainer**: [@mgongswun](https://github.com/mgongswun)
+* **Changelog**: See [CHANGELOG.md](./CHANGELOG.md) for version updates.
+* **Full License**: See [LICENSE](./LICENSE) file.
+
+---
+
+**Let the textbook grow like software, and let knowledge flow through co-creation.**
