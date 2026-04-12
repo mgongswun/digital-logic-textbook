@@ -1,20 +1,43 @@
-# 《数字逻辑与数字电路》开源教材
+# 📘 数字逻辑与数字电路：开源交互教材
+> **Digital Logic and Digital Circuits: An Open-Source Interactive Textbook**
 
-这里是数字逻辑与数字电路的开源教学资源库，包含完整的教学课件与配套资源。
-
-## 📚 教学课件 (PDF)
-* [第1章：数字逻辑基础](教科书/Chapter_01.pdf)
-* [第2章：组合逻辑电路](教科书/Chapter_02.pdf)
-* [第3章：时序逻辑电路](教科书/Chapter_03.pdf)
-* [第4章：FPGA设计入门](教科书/Chapter_04.pdf)
-* [第5章：综合项目案例](教科书/Chapter_05.pdf)
-* [第6章：存储器与可编程逻辑](教科书/Chapter_06.pdf)
-* [第7章：数字系统设计](教科书/Chapter_07.pdf)
-
-## 🤝 参与贡献
-如果你发现了错误或有更好的案例，欢迎提交 PR！请参考：
-* [贡献指南](CONTRIBUTING.md)
-* [开源协议](LICENSE)
+本项目致力于打造一个结构化、数字化的数字逻辑学习平台。不仅包含核心教材，还整合了知识图谱、能力模型、FPGA 实践案例及自动化诊断工具。
 
 ---
-© 2026 数字逻辑教材编写组
+
+## 📂 快速导航 (Quick Navigation)
+
+| 模块 | 内容描述 | 快速直达 |
+| :--- | :--- | :---: |
+| **核心教材** | 包含 Chapter 01-07 完整 PDF 内容 | [点击进入](./textbook/) |
+| **习题库** | 基础巩固、进阶挑战及详细解析 | [点击进入](./exercises/) |
+| **知识图谱** | 知识点关联 JSON 及可视化页面 | [点击进入](./knowledge-graph/) |
+| **能力模型** | 核心技能维度映射与评估指标 | [点击进入](./competency-model/) |
+| **实践案例** | 基于 FPGA 的综合项目（如语音识别） | [点击进入](./projects/) |
+| **补充材料** | 芯片手册、开发工具安装指南及文献 | [点击进入](./supplements/) |
+
+---
+
+## 🧩 系统功能与工具
+
+* **📊 教学数据**：查看 [sample-learning-data](./data/sample-learning-data/) 获取脱敏学习行为样本。
+* **🛠️ 诊断工具**：通过 [diagnosis.md](./tools/diagnosis.md) 进行学习进度自我检测。
+* **📍 路径规划**：访问 [path-planning.md](./tools/path-planning.md) 查看针对 **AI+通信** 方向的推荐路径。
+* **🎥 视频资源**：在 [video_links.md](./videos/video_links.md) 中获取微课视频链接。
+
+---
+
+## 🤝 参与贡献
+
+我们欢迎任何形式的贡献！请在开始前阅读我们的 [贡献指南 (CONTRIBUTING.md)](./CONTRIBUTING.md)。
+
+* **作者**：[mgongswun](https://github.com/mgongswun)
+* **更新日志**：查看 [CHANGELOG.md](./CHANGELOG.md) 获取最新版本动态。
+* **许可协议**：本项目采用 [MIT License](./LICENSE) 授权。
+
+---
+
+## 📅 下一版计划 (Upcoming)
+* 增加基于 AI 的通信调制识别 FPGA 案例。
+* 优化知识图谱的 D3.js 动态交互效果。
+* 完善各章节配套的 `quizzes/` 自动化测试。
