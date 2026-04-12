@@ -1,0 +1,86 @@
+双重许可证声明
+
+本仓库中的作品采用双重许可证，不同部分适用不同条款。
+
+================================================================================
+1. 教材内容（文本、图表、教学案例、习题、课件等）
+================================================================================
+
+适用许可证：Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+您可以自由地：
+- 共享 — 在任何媒介以任何形式复制、发行本作品
+- 改编 — 修改、转换或以本作品为基础进行创作
+
+但必须遵守以下条件：
+- 署名 (BY) — 您必须给出适当的署名，提供指向本许可证的链接，并标明是否做了修改。
+- 非商业性 (NC) — 您不得将本作品用于商业目的（详见下方补充说明）。
+- 相同方式共享 (SA) — 如果您修改、转换本作品或基于本作品进行创作，您必须采用与原作品相同的许可证分发您的贡献。
+
+许可证法律文本：https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+================================================================================
+2. 代码示例（Verilog/VHDL/FPGA项目源码等）
+================================================================================
+
+适用许可证：MIT License
+
+MIT License文本：
+
+Copyright (c) 2026 数字逻辑与数字电路课程团队
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+3. 许可证适用范围的界定
+================================================================================
+
+- 目录 textbook/, quizzes/, exercises/, slides/, cases/ 及其中所有非代码文件适用 CC BY-NC-SA 4.0。
+- 目录 code/ 及任何 .v, .vhd, .sv 等硬件描述语言源文件适用 MIT 许可证。
+- 企业贡献者在 cases/ 中明确标注 @core-ip 的核心IP部分，受企业贡献者协议保护，不触发 CC 协议的相同方式共享条款。
+
+================================================================================
+4. 针对 CC BY-NC-SA 4.0 非商业性的补充说明
+================================================================================
+
+为避免对“非商业性”的理解产生歧义，特对以下常见场景进行界定：
+
+- 教师在课堂上使用本教材授课：允许（非商业教育目的）
+- 学生个人学习、完成作业：允许（非商业目的）
+- 非营利教育机构内部复制、分发：允许（不涉及商业盈利）
+- 将本教材作为指定教材并收取学生费用（除印刷成本外）：禁止（超出成本收费视为商业行为）
+- 商业培训机构用于内部培训：禁止（如需使用请通过双许可方式联系）
+- 出版社出版本教材的正式版（含ISBN）：禁止，需单独授权（已与出版社建立正式合作，欢迎其他出版社洽谈）
+
+================================================================================
+5. 企业贡献者保护（核心IP豁免）
+================================================================================
+
+企业贡献的案例如果包含核心知识产权（IP），可在文件头部添加 @core-ip 标记，并签署企业贡献者协议。该标记内容不触发 CC BY-NC-SA 的相同方式共享条款，第三方不得提取、复制或逆向工程该部分用于商业目的。
+
+================================================================================
+6. 商业许可（双许可模式）
+================================================================================
+
+对于希望商业使用本教材内容（CC BY-NC-SA 4.0 部分）的个人或机构（如正式出版、商业培训、付费APP等），请联系课程团队获取商业许可。
+
+联系邮箱：mgong@swun.edu.cn
+
+================================================================================
+本许可证声明最后更新于 2026年4月12日
